@@ -35,7 +35,7 @@ public class CubeArt : MonoBehaviour
 
     public void ChangeTextureOnStart()
     {
-        currentRenderer.material = Instantiate<Material>(Materials[9]);
+        currentRenderer.material = Materials[9];
     }
 
     public void PickRandomTexture()
